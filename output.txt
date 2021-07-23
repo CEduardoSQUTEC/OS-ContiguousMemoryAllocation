@@ -1,0 +1,50 @@
+Contiguous memory created with capacity: 256
+
+ERROR: process is too big for memory.
+
+[ Address: 0, Type: hole, Length: 256] ->
+
+Process successfully inserted in head!
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: hole, Length: 244] ->
+
+Process successfully inserted!
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: process, Length: 20] ->
+[ Address: 8, Type: hole, Length: 224] ->
+
+Memory hole merged with right
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: hole, Length: 244] ->
+
+Process successfully inserted!
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: process, Length: 48] ->
+[ Address: 15, Type: hole, Length: 196] ->
+
+Process successfully inserted!
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: process, Length: 48] ->
+[ Address: 15, Type: process, Length: 108] ->
+[ Address: 42, Type: hole, Length: 88] ->
+
+Memory hole merged with right
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: process, Length: 48] ->
+[ Address: 15, Type: hole, Length: 196] ->
+
+Process successfully inserted!
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: process, Length: 48] ->
+[ Address: 15, Type: process, Length: 100] ->
+[ Address: 40, Type: hole, Length: 96] ->
+
+Memory set as hole
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: hole, Length: 48] ->
+[ Address: 15, Type: process, Length: 100] ->
+[ Address: 40, Type: hole, Length: 96] ->
+
+Memory holes from both sides merged
+[ Address: 0, Type: process, Length: 12] ->
+[ Address: 3, Type: hole, Length: 244] ->
